@@ -10,3 +10,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.list{
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color:blanchedalmond;
+    font-size: 23px;
+}
+.input-div{
+    
+    text-align: center;
+    margin: 30px 0;
+}
+.input-div button{
+    background-color: pink;
+}
+input{
+    width: 400px;
+    background-color:aquamarine;
+    color:black;
+}
+li{
+    border-bottom: 1px solid red;
+    padding: 5px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.list button{
+    border: none;
+    color: red;
+    background-color: #fff;
+    
+    
+}
+.list button:hover{
+    background-color:chocolate;
+    color:#fff;
+}
+
+.list-div{
+    
+    width: 45%;
+    margin: 0 auto;
+
+}
